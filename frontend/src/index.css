@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-50: #f0f4ff;
+  --color-brand-100: #dbe4ff;
+  --color-brand-400: #7c93ff;
+  --color-brand-500: #5b6ef5;
+  --color-brand-600: #4553d9;
+  --color-brand-700: #3641ad;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(180deg, #f7f8ff 0%, #eef0ff 100%);
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
